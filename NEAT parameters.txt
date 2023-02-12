@@ -1,0 +1,11 @@
+Input - Bird Y, bird to Top pipe pos, bird to Bottom pipe pos
+
+output - jump how much
+
+activation function - Tan H, hyperbolic tangen function, out neuron value can be rounded between the TanH (-1, 1) and the value if it is more than 0.5 then we jump 
+
+population size - values is as you need, but letss tkae 100 and gen0 and random neural network and take the best of gen0 and breed them make gen1 100 birds
+
+fitness function - every frame that gets furthest gets a point with reference to each frames. ergo = Distance is the fitness funct for nect GEN
+
+Max generations we want for run for - 30 if i make it past 30 gens we will cut and restart the AI [program since it seems innefficient
